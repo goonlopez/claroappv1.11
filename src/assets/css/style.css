@@ -1,0 +1,73 @@
+.wrapper           		       { font-family: 'Roboto', sans-serif; color: #616d78; font-size: 14px; }
+.wrapper hr                    { margin-bottom: 3px; }
+.wrapper .pack                 { border: 1px solid rgba(0,0,0,.125); border-radius: 10px; padding: 2vw;}
+.wrapper  h6    	           { color: #616d78 !important; font-size: 20px; } 
+.wrapper .tittle img 		   { width: 38px; height: 31px;}
+.wrapper .build p                   { margin: 6px;}
+	   
+.wrapper .center               { text-align: center;}
+.wrapper .input-group          { width: 265px !important;}
+.wrapper .build p              { margin-top: 10px; margin-bottom: 6px; color: #000}
+.wrapper .build .btn           { font-family: 'Source Sans Pro'; font-size: 18px; color: #707070; padding: 1px; box-shadow: 0 1px 0.5px 0 #e4e4e4 !important;}
+
+.wrapper .resumen              { border: 1px solid rgba(0,0,0,.125); border-radius: 10px; padding: 2vw; font-weight: bolder;  font-size: 16px !important; box-shadow: 0 1px 0.5px 0 #e4e4e4 !important;}
+.wrapper .resumen img 	       { width: 22px; height: 22px;}
+.wrapper .resumen .res-icon    { text-align: start;}
+.wrapper .resumen p		       { margin-bottom: 0rem;}
+
+.wrapper .resumen #icon-llamadas  { margin-left: 6px;}
+
+.wrapper .txt-bold             { font-weight: bold !important;}
+.wrapper .txt-red  			   { color: #d82828;}
+.wrapper .txt-sm               { font-size: 14px !important; font-weight: normal;}
+
+.wrapper .btn-danger:hover     	   { background-color: #d82828; border-color: #d82828}
+.wrapper .btn-danger           	   { background-color: #d82828; height: 52px; border-radius: 5px;  border-color: #bcc0c4; width: 40%;}
+.wrapper .btn-danger:active    	   { background-color: #d82828; height: 52px; border-radius: 5px;  border-color: #bcc0c4; width: 40%;}
+.wrapper .btn-secondary-gb         { border-color: #d8d8d8; width: 56px; height: 32px;  border-radius: 5px !important}
+.wrapper .btn-secondary-gb:hover   { color: #ffffff !important; background-color: #1197af !important; border-color: #1197af;}
+.wrapper .btn-secondary-gb.active  { color: #ffffff !important; background-color: #1197af !important; border-color: #1197af;}
+.wrapper .btn-secondary-min        { border-color: #d8d8d8; width: 71px; height: 32px;  border-radius: 5px !important}
+.wrapper .btn-secondary-min:hover  { color: #ffffff !important; background-color: #1197af !important; border-color: #1197af;}
+.wrapper .btn-secondary-min.active { color: #ffffff !important; background-color: #1197af !important; border-color: #1197af;}
+.wrapper .btn:disabled             { opacity: .65; background-color: #bcc0c4 !important;border-color: #bcc0c4 !important;}
+
+.wrapper .rrss                     { border-radius: 10px; background-color: #f7f7f7; padding: 2vw; }
+.wrapper .rrss .link               { color: #1197af;}
+.wrapper .rrss img                 { width: 25px; margin-bottom: .5vw;}
+.wrapper .rrss p                   { margin-bottom: 0rem;}
+
+.wrapper .modal-content 	       { padding: 1.5vw; }
+.wrapper .modal .pack              { padding: 1vw; border-radius: 0px;}
+.wrapper .modal-header             { border-bottom: 0px solid #dee2e6;  }
+
+.wrapper .table               	   { margin-bottom: 0rem; }
+.wrapper .table td, .table th 	   { padding: 0rem; text-align: center; }
+
+.wrapper .breadcrumb               { background-color: #FFFFFF; }
+.wrapper .breadcrumb a             { color: #616d78;text-decoration: none;background-color: transparent;}
+
+.breadcrumb-item+.breadcrumb-item::before {color: #d82828;content: "|";}
+
+.wrapper .prueba                   { display: none}
+
+
+.wrapper .opacity                { filter: opacity(0.7);}
+
+
+@media (max-width: 768px) { 
+.wrapper .resumen               { width: 100% !important; padding: 4vw !important; margin-top: 3vw;}
+.wrapper .btn-danger            { width: 100%;}
+.wrapper .resumen .resumen-icon { text-align: end;}
+.wrapper .modal-content 		{ padding: 2vw; width: 98%; margin: auto;}
+.wrapper                        { margin: 2vw;}
+.wrapper .modal-content         { padding: 4vw;}
+.wrapper .input-group           { width: 98% !important;}
+
+.wrapper .rrss {
+
+    padding: 4vw;
+
+}
+ }
+
